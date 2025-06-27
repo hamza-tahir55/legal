@@ -108,7 +108,7 @@ def chat():
 
     return jsonify({"response": response})
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 # Initialize the Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
