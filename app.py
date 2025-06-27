@@ -23,7 +23,7 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16 MB limit for uploads
 # Store extracted PDF content globally
 pdf_content_store = {}
 
-GOOGLE_API_KEY = "AIzaSyCSq35o-1vLYe3bKjKRoGNezTJNRmDMEx0"
+GOOGLE_API_KEY = "AIzaSyBhW12CUPbAeixUy43dPAS_dhWc6MSDPQw"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Initialize the language model
